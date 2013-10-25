@@ -34,3 +34,6 @@ function sortObjArray(objArray, propName) {
     });
 } //sortObjArray()
 
+function render(entries) {
+    $("address-book").append($("template").clone());
+}
